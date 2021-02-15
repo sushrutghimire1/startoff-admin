@@ -3,12 +3,9 @@ import axios from "axios";
 class AuthenticationService {
   signin = (username, password) => {
     return axios
-      .post("https://startoff-main.herokuapp.com/api/auth/signin", {
-        username,
-        password,
-      })
+      .post("http://localhost:8080/api/auth/signin", { username, password })
       .then((response) => {
-        if (response.data.accessToken) {
+        if (response.data.jwt) {
           localStorage.setItem("user", JSON.stringify(response.data));
         }
         return response.data;
@@ -24,7 +21,7 @@ class AuthenticationService {
   }
 
   register = async (firstname, lastname, username, email, password) => {
-    return axios.post("https://startoff-main.herokuapp.com/api/auth/signup", {
+    return axios.post("http://localhost:8080/api/auth/signup", {
       firstname,
       lastname,
       username,
