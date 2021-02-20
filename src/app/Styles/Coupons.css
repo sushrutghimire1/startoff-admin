@@ -1,0 +1,22 @@
+.card-tal .card-tal-con {
+  background-color: rgb(80, 205, 255);
+  height: 100%;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 7px 1px #1c6ea4;
+}
+.card-tal button {
+  background-color: rgb(1, 81, 121);
+  color: white;
+}
+.card-tal img {
+  width: 100%;
+}
+.Coupons {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.coupon-title {
+  color: rgb(255, 64, 0);
+}

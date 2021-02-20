@@ -1,0 +1,49 @@
+::-webkit-scrollbar {
+  width: 0.0625rem;
+  height: 0.0625rem;
+}
+::-webkit-scrollbar-button {
+  width: 0.0625rem;
+  height: 0.0625rem;
+}
+.HomeConsumer {
+  margin-top: 1rem;
+}
+.HomeConsumer div {
+  box-sizing: border-box;
+}
+.horizontal-scroll-wrapper {
+  position: relative;
+  display: block;
+
+  left: 0;
+  width: calc(250px + 0.0625rem);
+  max-height: 1550px;
+
+  padding-top: 0.0625rem;
+  background: rgb(0, 12, 24);
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform: rotate(-90deg) translateY(-250px);
+  transform-origin: right top;
+  margin: 0.3125rem 20px;
+  box-shadow: 0rem 0rem 0.625rem 0.625rem #030058;
+}
+.horizontal-scroll-wrapper > div {
+  display: block;
+  padding: 0.3125rem;
+  background: #cab;
+  transform: rotate(90deg);
+  transform-origin: right top;
+}
+.squares {
+  padding: 15.625rem 0 0 0;
+}
+/* padding and width of squares should be same */
+.squares > div {
+  width: 15.625rem;
+  height: 15.625rem;
+  margin: 0.0625rem 0;
+  padding: 0.3125rem;
+  display: inline-block;
+}

@@ -1,0 +1,126 @@
+:root {
+  --primary-color: rgb(26, 34, 38, 0.8);
+  --icon-color: -webkit-linear-gradient(#27ef9f, #0db8de);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.signIn .login-box {
+  height: auto;
+  background: var(--primary-color);
+  text-align: center;
+  box-shadow: 0 0.1875rem 0.375rem rgba(0, 0, 0, 0.16),
+    0 0.1875rem 0.375rem rgba(0, 0, 0, 0.23);
+}
+
+.signIn .login-key {
+  height: 3.125rem;
+  font-size: 1.875rem;
+  line-height: 50px;
+  background: var(--icon-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.signIn .back {
+  background: var(--icon-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.signIn .login-title {
+  text-align: center;
+  font-size: 1.875rem;
+  letter-spacing: 0.125rem;
+  font-weight: bold;
+  color: #ecf0f5;
+}
+
+.signIn .login-form {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.signIn .username {
+  background: rgb(26, 34, 38, 0.3);
+  border: none;
+  border-bottom: 0.125rem solid #0db8de;
+  border-top: 0rem;
+  font-weight: bold;
+  outline: 0;
+  padding-left: 0.625rem;
+  color: #ecf0f5;
+  border-radius: 0.625rem 0.625rem 0.3125rem 0.3125rem;
+}
+.signIn .form-control-label > span {
+  color: rgba(255, 255, 255, 0.8);
+}
+.signIn .password {
+  background: rgb(26, 34, 38, 0.3);
+  border: none;
+  border-bottom: 0.125rem solid #0db8de;
+  border-top: 0rem;
+  font-weight: bold;
+  outline: 0;
+  padding-left: 0.625rem;
+  color: #ecf0f5;
+  border-radius: 0.625rem 0.625rem 0.3125rem 0.3125rem;
+}
+
+.signIn .form-group {
+  margin-bottom: 1.25rem;
+  outline: 0rem;
+}
+
+.signIn .form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 0.125rem solid #0db8de;
+  outline: 0;
+  background: rgba(2, 28, 41, 0.8);
+  color: #ecf0f5;
+}
+
+.signIn input:focus {
+  outline: none;
+  box-shadow: 0 0 0;
+}
+
+.signIn label {
+  margin-bottom: 0rem;
+}
+
+.signIn .form-control-label {
+  font-size: 0.625rem;
+  color: #6c6c6c;
+  font-weight: bold;
+  letter-spacing: 0.0625rem;
+}
+
+.signIn .btn-outline-primary {
+  border-color: #0db8de;
+  color: #0db8de;
+  border-radius: 0.9375rem;
+  font-weight: bold;
+  letter-spacing: 0.0625rem;
+  box-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.12),
+    0 0.0625rem 0.125rem rgba(0, 0, 0, 0.24);
+}
+
+.signIn .btn-outline-primary:hover {
+  background-color: #0db8de;
+  right: 0rem;
+}
+.signIn .h6 {
+  font-size: 1.25em;
+}
+.signUp {
+  background-color: rgb(44, 43, 43);
+  padding: 0.625rem;
+}
+.signIn {
+  background-color: rgb(44, 43, 43);
+  padding: 0.625rem;
+  min-height: 620px;
+}

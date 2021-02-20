@@ -1,0 +1,85 @@
+.itemCatalog {
+  background: rgb(1, 72, 107);
+
+  background: linear-gradient(
+    to right,
+    rgb(2, 41, 61),
+    rgb(1, 81, 121),
+    rgb(1, 130, 182),
+    rgb(1, 72, 107)
+  );
+  box-shadow: 2px 2px 7px 1px #1c6ea4;
+}
+.itemCatalog {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.itemCatalog img {
+  max-height: 10rem;
+  max-width: auto;
+}
+.itemCatalog .product-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.itemCatalog .price-strike,
+.itemCatalog .sold-amount {
+  color: #00000078;
+}
+.itemCatalog .price {
+  font-size: 1.15rem;
+  font-style: italic;
+}
+.itemCatalog.price-strike,
+.itemCatalog .rating {
+  font-size: 0.85rem;
+}
+.itemCatalog .product-details-link {
+  font-style: italic;
+}
+.itemCatalog .rating {
+  color: green;
+}
+.itemCatalog .card-header {
+  background-color: transparent;
+  border: none;
+  padding: 0.75rem 0.65rem;
+  background-color: rgb(80, 205, 255);
+}
+.itemCatalog .card-body {
+  padding: 0.5rem 0.9rem 0 0.9rem;
+  text-align: center;
+  background-color: rgb(189, 236, 255);
+}
+.itemCatalog .product-card {
+  background-color: #f2f2f2;
+  max-width: auto;
+  border-radius: 0.3rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.15);
+  transition: 0.4s;
+}
+.itemCatalog .product-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.itemCatalog .buttons {
+  text-align: center;
+}
+.itemCatalog .btn {
+  padding: 0.7rem 0 0.7rem 0;
+  border-radius: 0.17rem;
+  margin-bottom: -0.1rem;
+}
+.itemCatalog a,
+.itemCatalog a:hover {
+  color: #000000bf;
+}
+
+@media (max-width: 820px) {
+  .itemCatalog .product-card {
+    max-width: 22rem;
+  }
+  .itemCatalog .product-title {
+    font-size: 1.2rem;
+  }
+}

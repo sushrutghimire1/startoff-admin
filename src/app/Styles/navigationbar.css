@@ -1,0 +1,13 @@
+.navigationbar .navbar {
+  background-color: rgb(1, 72, 107);
+}
+.navigationbar > nav > div:nth-child(1) > a {
+  color: rgb(0, 183, 255);
+}
+.navigationbar ul > li > a {
+  color: rgb(0, 183, 255);
+}
+
+.navigationbar a:hover {
+  color: rgb(255, 64, 0);
+}
